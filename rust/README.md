@@ -2,7 +2,7 @@
 # Welcome to my Rust Worstshop (definitely not a typo) series
 
 # Preparing to run the code
-1. [Install Rust, using rustup](https://www.rust-lang.org/tools/install) or take a look at "Other installation methods
+1. [Install Rust using rustup](https://www.rust-lang.org/tools/install) or take a look at "Other installation methods"
 1. Clone this repo
 1. [Optional] if you are using vscode, [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) extension is THE extension you want to install. Follow the popups after install
 
@@ -25,12 +25,12 @@ fn function_name(param: ParamType) -> ReturnType {
 
   let mut mutable_string = String::new(); // mutable values NEED to be properly identified
   mutable_string.push_str("He");
-  mutable_string.push_str("llo")
+  mutable_string.push_str("llo");
 
-  /* 
-   * everything that ends with `!` is a macro, there are a few built-ins and you can create your own.
-   * I understand them as much as I understand black magic. And I swear I don't understand black magic.
-   * /
+  /*
+  * Everything that ends with `!` is a macro, there are a few built-ins and you can create your own.
+  * I understand them as much as I understand black magic. And I swear I don't understand black magic.
+  */
   println!("{}", mutable_string); // -> Hello
   println!("That's how {} interpolation works {}", "string", "mate!") // -> That's how string interpolation works mate!
 }
