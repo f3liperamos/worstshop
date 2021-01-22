@@ -2,7 +2,7 @@
 # Welcome to my Rust Worstshop (definitely not a typo) series
 
 # Preparing to run the code
-1. Install Rust using rustup (recomended) or any choice you prefer or your OS supports.
+1. [Install Rust, using rustup](https://www.rust-lang.org/tools/install) or take a look at "Other installation methods
 1. Clone this repo
 1. [Optional] if you are using vscode, [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) extension is THE extension you want to install. Follow the popups after install
 
