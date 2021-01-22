@@ -1,0 +1,5 @@
+[package]
+name = "utilities"
+version = "0.1.0"
+authors = ["Felipe Ramos"]
+edition = "2018"
