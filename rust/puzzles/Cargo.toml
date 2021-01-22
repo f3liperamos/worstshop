@@ -1,0 +1,8 @@
+[package]
+name = "puzzles"
+version = "0.0.1"
+authors = ["Felipe Ramos"]
+edition = "2018"
+
+[dependencies]
+utilities = { path = "../utilities" }
