@@ -1,1 +1,1 @@
-Check [rust folder]('./rust')
+Check [rust folder](rust)
